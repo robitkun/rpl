@@ -25,7 +25,6 @@
                 <input type="number" step="0.01" id="price" name="price" value="{{ $product->price }}" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div class="mb-4">
-
                 <label for="description" class="block text-gray-700 text-sm font-bold mb-2">Descriptionnn</label>
                 <textarea id="description" name="description" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">{{ $product->description }}</textarea>
             </div>
